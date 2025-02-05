@@ -26,8 +26,10 @@ O que você aprenderá:
 <br>
 ### **Recursos e Suporte**:
 
-- **Download da Aplicação**: [f102.sql](https://objectstorage.sa-saopaulo-1.oraclecloud.com/n/idi1o0a010nx/b/demo_externaltable/o/f102.sql)
-- **Download do PDF**: [Normas Internas Dataprev](https://www.dataprev.gov.br/governanca/normativos/normasinternas). Para o nosso exemplo, utilizaremos o arquivo **Viagem a Serviço Nacional**.
+- **Download dos PDFs**: Neste laboratório utilizaremos dois documentos:
+     - [Controle do câncer de mama no Brasil: dados e números 2024](https://www.inca.gov.br/publicacoes/livros/controle-do-cancer-de-mama-no-brasil-dados-e-numeros-2024): Para o nosso exemplo, utilizaremos o arquivo com uma análise dos dados mais atuais disponíveis nos sistemas de informação do SUS.
+     - [Cartilha Câncer de Mama](https://accamargo.org.br/sites/default/files/2022/10/cartilha-cancer-de-mama-2022_v15.pdf): Um guia com tudo sobre prevenção, diagnóstico, tratamento e direitos das pacientes
+- **Download da Aplicação**: [f102.sql](https://objectstorage.us-ashburn-1.oraclecloud.com/p/XescapnJvbIn2SQTE9akiaJYethoa9t_4glIsMZa4mjI0VJrUdL2MvzqJmsJmF1C/n/idi1o0a010nx/b/bucket-prodesp/o/f102.sql)
 - **Documentação da Oracle Cloud**: [Getting started with vectors in 23ai](https://blogs.oracle.com/coretec/post/getting-started-with-vectors-in-23ai)
 - **Tutoriais**: [Oracle Database 23ai - Oracle AI Vector Search & Retrieval Augmented Generation (RAG) with Oracle APEX](https://www.linkedin.com/pulse/oracle-database-23ai-ai-vector-search-retrieval-augmented-rao-bqkcf/)
 
@@ -146,9 +148,12 @@ Clique em **Arquivos e Normas**.
 
    ![Assistente AI](images/assistente-ai.png)
 
-Seguiremos com o upload de um arquivo PDF para dentro da aplicação. Qualquer PDF pode ser utilizado, mas, para fins didáticos deste workshop, recomendamos as normas disponíveis no link: [Normas Internas Dataprev](https://www.dataprev.gov.br/governanca/normativos/normasinternas). Para o nosso exemplo, utilizaremos o arquivo **Viagem a Serviço Nacional**.
+Seguiremos com o upload de um arquivo PDF para dentro da aplicação. Qualquer PDF pode ser utilizado, mas, para fins didáticos deste workshop, recomendamos os seguintes documentos:
+- [Controle do câncer de mama no Brasil: dados e números 2024](https://www.inca.gov.br/publicacoes/livros/controle-do-cancer-de-mama-no-brasil-dados-e-numeros-2024)
+- [Cartilha Câncer de Mama: Um guia com tudo sobre prevenção, diagnóstico, tratamento e direitos das pacientes](https://accamargo.org.br/sites/default/files/2022/10/cartilha-cancer-de-mama-2022_v15.pdf)
 
-   ![Dataprev Site](images/dataprev-site.png)
+
+   ![Inca Site](images/inca.png)
 
 Clique em **Upload** e preencha o formulário seguindo o exemplo fornecido. O **JSON** utilizado para o preenchimento está disponível logo abaixo da imagem de referência.
 
@@ -160,7 +165,7 @@ Clique em **Upload** e preencha o formulário seguindo o exemplo fornecido. O **
         --JSON Utilizado no preenchimento
     {
         "by" : "words",
-        "max" : "50",
+        "max" : "100",
         "overlap" : "0",
         "split": "sentence",
         "language" : "ptb",
@@ -173,7 +178,7 @@ Se o upload for concluído com sucesso, sua tela deverá se assemelhar ao exempl
 
    ![Row Created](images/row-created.png)
 
-Clique em Assistente AI e faça uma pergunta relacionada ao documento carregado. Por exemplo, você pode perguntar: **"COMO FAZER ALTERAÇÃO DE VIAGEM"**.
+Clique em Assistente AI e faça uma pergunta relacionada ao documento carregado. Por exemplo, você pode perguntar: **"QUAIS SÃO OS FATORES DE RISCO DO CÂNCER DE MAMA"**.
 
    ![Question](images/question.png)
 
