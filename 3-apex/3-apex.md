@@ -185,6 +185,72 @@ Clique em Assistente AI e faça uma pergunta relacionada ao documento carregado.
 
 **Se não houver erro, você terá concluído com sucesso o workshop.** Sinta-se à vontade para fazer o upload de outros arquivos ou explorar realizando novas perguntas ao Assistente AI.
 
+# Extra: Personalização Básica de Aplicações Oracle APEX
+
+Este tutorial fornece uma introdução simples à personalização de interfaces em Oracle APEX, focando em elementos visuais como ícones, cores e componentes UI. 
+
+## Índice
+
+- [Introdução](#introdução)
+- [Personalizando Ícones](#personalizando-ícones)
+- [Alterando Cores](#alterando-cores)
+- [Customizando Componentes UI](#customizando-componentes-ui)
+- [Recursos Avançados](#recursos-avançados)
+- [Certificação em Oracle APEX](#certificação-em-oracle-apex)
+
+## Introdução
+
+Uma interface bem projetada não só atrai visualmente os usuários, mas também melhora a usabilidade da aplicação. Este tutorial cobre os passos básicos para personalizar a sua aplicação APEX, tornando-a mais agradável e funcional.
+
+## Personalizando Ícones
+
+Oracle APEX oferece uma vasta biblioteca de ícones que podem ser utilizados para melhorar visualmente a sua aplicação. Acesse a biblioteca de ícones e escolha os que mais se adaptam às suas necessidades.
+
+**Acessar Biblioteca de Ícones:** [Ícones APEX](https://apex.oracle.com/pls/apex/r/apex_pm/ut/icons)
+
+**Passo a Passo:**
+1. Visite o link acima.
+2. Navegue pela lista de ícones disponíveis.
+3. Copie o código do ícone que deseja usar.
+4. Insira o código no local desejado dentro da sua aplicação.
+
+## Alterando Cores
+
+Alterar a paleta de cores é uma maneira eficaz de dar um novo visual à sua aplicação.
+
+**Escolher Paletas de Cores:** [Cores APEX](https://apex.oracle.com/pls/apex/r/apex_pm/ut/colors)
+
+**Passo a Passo:**
+1. Acesse o link para ver as cores disponíveis.
+2. Escolha uma paleta de cores.
+3. Aplique as cores selecionadas através do CSS Customizado na sua aplicação.
+
+## Customizando Componentes UI
+
+Customize componentes como botões, caixas de texto, e menus usando a biblioteca de componentes UI do APEX.
+
+**Explorar Componentes UI:** [Componentes UI APEX](https://apex.oracle.com/pls/apex/r/apex_pm/ut/components)
+
+**Passo a Passo:**
+1. Acesse o link e explore os componentes disponíveis.
+2. Escolha os componentes que deseja modificar.
+3. Siga as instruções para aplicar as modificações na sua aplicação.
+
+## Recursos Avançados
+
+Para usuários que desejam explorar funcionalidades mais avançadas:
+
+**Componentes Avançados:** [Componentes Detalhados](https://apexrw-dev.apexdev.oraclecorp.com/ords/r/redwood/redwood-apex-library/components?session=12200202141555)
+**Recursos Adicionais:** [Recursos APEX](https://apexrw-dev.apexdev.oraclecorp.com/ords/r/redwood/redwood-apex-library/resources?session=5251767119431)
+
+## Certificação em Oracle APEX
+
+Fortaleça suas habilidades e obtenha reconhecimento oficial através da certificação em Oracle APEX.
+
+**Curso e Certificação:** [Oracle APEX Foundations](https://mylearn.oracle.com/ou/learning-path/oracle-apex-foundations/112444)
+
+Este é apenas o começo! Explore as referências fornecidas para descobrir mais sobre como você pode personalizar sua aplicação Oracle APEX e torná-la única.
+
 
 ## 👥 Agradecimentos
 
