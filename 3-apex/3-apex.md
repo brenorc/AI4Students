@@ -17,7 +17,7 @@ O que você aprenderá:
 - **Download dos PDFs**: Neste laboratório utilizaremos dois documentos:
      - [Controle do câncer de mama no Brasil: dados e números 2024](https://www.inca.gov.br/publicacoes/livros/controle-do-cancer-de-mama-no-brasil-dados-e-numeros-2024): Para o nosso exemplo, utilizaremos o arquivo com uma análise dos dados mais atuais disponíveis nos sistemas de informação do SUS.
      - [Cartilha Câncer de Mama](https://accamargo.org.br/sites/default/files/2022/10/cartilha-cancer-de-mama-2022_v15.pdf): Um guia com tudo sobre prevenção, diagnóstico, tratamento e direitos das pacientes
-- **Download da Aplicação**: [f102.sql](https://objectstorage.us-ashburn-1.oraclecloud.com/p/XescapnJvbIn2SQTE9akiaJYethoa9t_4glIsMZa4mjI0VJrUdL2MvzqJmsJmF1C/n/idi1o0a010nx/b/bucket-prodesp/o/f102.sql)
+- **Download da Aplicação**: [APEX](https://objectstorage.us-chicago-1.oraclecloud.com/p/gX9oDHr2oiJOGZZkicBQzKwnlDmiz3i0iA0Pu_vY_b9f0npPbU4cpM7mRb8cXV8J/n/idi1o0a010nx/b/ai4students/o/arquivo_ragproa_apex24.2.sql)
 - **Documentação da Oracle Cloud**: [Getting started with vectors in 23ai](https://blogs.oracle.com/coretec/post/getting-started-with-vectors-in-23ai)
 - **Tutoriais**: [Oracle Database 23ai - Oracle AI Vector Search & Retrieval Augmented Generation (RAG) with Oracle APEX](https://www.linkedin.com/pulse/oracle-database-23ai-ai-vector-search-retrieval-augmented-rao-bqkcf/)
 
@@ -82,7 +82,7 @@ Clique em **App Builder** e, em seguida, selecione **Import**.
 
    ![Import](images/import.png)
 
-Na página que será aberta, faça o upload do arquivo **f102.sql** utilizando o seguinte link: [f102.sql](https://objectstorage.sa-saopaulo-1.oraclecloud.com/n/idi1o0a010nx/b/demo_externaltable/o/f102.sql).
+Na página que será aberta, faça o upload do arquivo **APEX** utilizando o seguinte link: [APEX](https://objectstorage.us-chicago-1.oraclecloud.com/p/gX9oDHr2oiJOGZZkicBQzKwnlDmiz3i0iA0Pu_vY_b9f0npPbU4cpM7mRb8cXV8J/n/idi1o0a010nx/b/ai4students/o/arquivo_ragproa_apex24.2.sql).
 
    ![Aplicação f102](images/f102.png)
 
