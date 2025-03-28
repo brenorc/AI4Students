@@ -1,4 +1,29 @@
-# Oracle APEX
+## Oracle APEX
+
+# 🎯 **Objetivos**
+
+  Guiar os participantes na criação e configuração de um ambiente APEX no Oracle Cloud Infrastructure (OCI) para implementar uma aplicação baseada em IA generativa.  
+
+O que você aprenderá:
+
+  - Criar um workspace no APEX.  
+  - Importar e instalar uma aplicação.  
+  - Ajustar credenciais para integração com serviços do OCI.  
+  - Realizar de testes práticos para validar a aplicação. 
+
+
+### **Recursos e Suporte**:
+
+- **Download dos PDFs**: Neste laboratório utilizaremos dois documentos:
+     - [Controle do câncer de mama no Brasil: dados e números 2024](https://www.inca.gov.br/publicacoes/livros/controle-do-cancer-de-mama-no-brasil-dados-e-numeros-2024): Para o nosso exemplo, utilizaremos o arquivo com uma análise dos dados mais atuais disponíveis nos sistemas de informação do SUS.
+     - [Cartilha Câncer de Mama](https://accamargo.org.br/sites/default/files/2022/10/cartilha-cancer-de-mama-2022_v15.pdf): Um guia com tudo sobre prevenção, diagnóstico, tratamento e direitos das pacientes
+- **Download da Aplicação**: [f102.sql](https://objectstorage.us-ashburn-1.oraclecloud.com/p/XescapnJvbIn2SQTE9akiaJYethoa9t_4glIsMZa4mjI0VJrUdL2MvzqJmsJmF1C/n/idi1o0a010nx/b/bucket-prodesp/o/f102.sql)
+- **Documentação da Oracle Cloud**: [Getting started with vectors in 23ai](https://blogs.oracle.com/coretec/post/getting-started-with-vectors-in-23ai)
+- **Tutoriais**: [Oracle Database 23ai - Oracle AI Vector Search & Retrieval Augmented Generation (RAG) with Oracle APEX](https://www.linkedin.com/pulse/oracle-database-23ai-ai-vector-search-retrieval-augmented-rao-bqkcf/)
+
+
+### _**Aproveite sua experiência na Oracle Cloud!**_
+
 
 ## 📌 Introdução
 
@@ -9,30 +34,6 @@
 ### ➡️ **Como o Oracle APEX revoluciona o desenvolvimento de aplicações no Oracle Database?**
 
 > Com o Oracle APEX, desenvolvedores podem criar aplicações empresariais modernas por meio de uma interface intuitiva que combina design visual, componentes integrados e funcionalidades avançadas, como gráficos interativos, relatórios dinâmicos e dashboards. O APEX aproveita as capacidades nativas do Oracle Database, como segurança, alta disponibilidade e desempenho, permitindo a criação de workspaces, o upload de aplicações e a integração com serviços externos via credenciais e APIs. Com poucos cliques, é possível importar arquivos SQL, configurar parâmetros de segurança e realizar customizações rápidas e eficientes.
-
-<br>
-
-### 📌 **Objetivos**
-
-  Guiar os participantes na criação e configuração de um ambiente APEX no Oracle Cloud Infrastructure (OCI) para implementar uma aplicação baseada em IA generativa.  
-
-O que você aprenderá:
-
-  - Criar um workspace no APEX.  
-  - Importar e instalar uma aplicação.  
-  - Ajustar credenciais para integração com serviços do OCI.  
-  - Realizar de testes práticos para validar a aplicação.  
-
-<br>
-### **Recursos e Suporte**:
-
-- **Download dos PDFs**: Neste laboratório utilizaremos dois documentos:
-     - [Controle do câncer de mama no Brasil: dados e números 2024](https://www.inca.gov.br/publicacoes/livros/controle-do-cancer-de-mama-no-brasil-dados-e-numeros-2024): Para o nosso exemplo, utilizaremos o arquivo com uma análise dos dados mais atuais disponíveis nos sistemas de informação do SUS.
-     - [Cartilha Câncer de Mama](https://accamargo.org.br/sites/default/files/2022/10/cartilha-cancer-de-mama-2022_v15.pdf): Um guia com tudo sobre prevenção, diagnóstico, tratamento e direitos das pacientes
-- **Download da Aplicação**: [f102.sql](https://objectstorage.us-ashburn-1.oraclecloud.com/p/XescapnJvbIn2SQTE9akiaJYethoa9t_4glIsMZa4mjI0VJrUdL2MvzqJmsJmF1C/n/idi1o0a010nx/b/bucket-prodesp/o/f102.sql)
-- **Documentação da Oracle Cloud**: [Getting started with vectors in 23ai](https://blogs.oracle.com/coretec/post/getting-started-with-vectors-in-23ai)
-- **Tutoriais**: [Oracle Database 23ai - Oracle AI Vector Search & Retrieval Augmented Generation (RAG) with Oracle APEX](https://www.linkedin.com/pulse/oracle-database-23ai-ai-vector-search-retrieval-augmented-rao-bqkcf/)
-
 
 ### _**Aproveite sua experiência na Oracle Cloud!**_
 
