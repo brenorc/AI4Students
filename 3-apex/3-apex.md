@@ -139,6 +139,36 @@ Retorne à página do APEX e insira o **OCI Tenancy ID** no campo correspondente
 
 Por fim, clique em **Apply Changes** para salvar as configurações e concluir o ajuste da credencial.
 
+Feito isso, você também precisará atualizar uma última informação do modelo.
+
+Clique em **App Builder** e depois selecione a **Sua Aplicação**.
+
+![AppBuilder](https://objectstorage.us-chicago-1.oraclecloud.com/n/idajmumkp9ca/b/embedding-model/o/print1_appbuilder.png)
+
+Selecione a opção **Shared Components**.
+
+![SharedComponents](https://objectstorage.us-chicago-1.oraclecloud.com/n/idajmumkp9ca/b/embedding-model/o/print2_Shared.png)
+
+Entre na opção **REST Data Sources**.
+
+![RESTDataSource](https://objectstorage.us-chicago-1.oraclecloud.com/n/idajmumkp9ca/b/embedding-model/o/print3_RESTDataSource.png)
+
+Abra a REST Source **Cohere-Chat**.
+
+![CohereChat](https://objectstorage.us-chicago-1.oraclecloud.com/n/idajmumkp9ca/b/embedding-model/o/print4_cohere-Chat.png)
+
+Navegue até a aba **Operation** e **Edite** a única linha disponível.
+
+![Operation](https://objectstorage.us-chicago-1.oraclecloud.com/n/idajmumkp9ca/b/embedding-model/o/print5_operation.png)
+
+Busque no seu ambiente OCI por **Compartments** na barra superior, e **Copie o OCID** de um compartimento qualquer.
+
+![Compartments](https://objectstorage.us-chicago-1.oraclecloud.com/n/idajmumkp9ca/b/embedding-model/o/print6_compartment.png)
+
+Inclua o Compartment ID do compartimento do seu ambiente da OCI.
+
+![CompartmentID](https://objectstorage.us-chicago-1.oraclecloud.com/n/idajmumkp9ca/b/embedding-model/o/print7_updatecompartment.png)
+
 ## 3️⃣ Teste da Aplicação
 
 Com a configuração da credencial concluída, podemos testar a aplicação. Para isso, clique em **App Builder** e, em seguida, no ícone **Run** para executar a aplicação e verificar seu funcionamento.
