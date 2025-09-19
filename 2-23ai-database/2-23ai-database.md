@@ -121,12 +121,15 @@ Execute conforme indicado abaixo:
 
 ![Execute Code](images\execute-code.png)
 
+### Extra: Para testar se o modelo de embedding funcionou, você pode usar a consulta abaixo:
+
+    SELECT TO_VECTOR(VECTOR_EMBEDDING(demo.doc_model USING 'Raça CAASO' as data)) AS embedding;
 
 ## 👥 Agradecimentos
 
 - **Autores** - Caio Oliveira
-- **Autores Contribuintes** - Isabelle Anjos, Gabriela Miyazima, Aristotelles Serra
-- **Última Atualização Por/Data** - Janeiro 2025
+- **Autores Contribuintes** - Breno Comin, Isabelle Anjos, Gabriela Miyazima, Aristotelles Serra
+- **Última Atualização Por/Data** - Setembro 2025
 
 ## 🛡️ Declaração de Porto Seguro (Safe Harbor)
 
