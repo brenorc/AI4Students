@@ -95,14 +95,14 @@ Copie, cole e execute os comandos abaixo:
     /
 
     --Download de Modelo onnx do object storage para diretorio autonomous
-    begin
+    BEGIN
     dbms_cloud.get_object(
-        credential_name => 'OBJ_STORE_CRED'
-        , object_uri => 'https://objectstorage.sa-saopaulo-1.oraclecloud.com/p/nS9blF5U2ETiZT7YKZ_zrXtPOEH2Xf22TbdlpK99xZIEPmZedx4_eFBX4khYykmw/n/idi1o0a010nx/b/TDC/o/intfloatmodelsmall.onnx'
-        , directory_name => 'DATA_PUMP_DIR'
-        , file_name => 'intfloatmodelsmall.onnx'
+    credential_name => 'OBJ_STORE_CRED'
+    , object_uri => 'https://objectstorage.us-chicago-1.oraclecloud.com/p/zlrcQmv79yuagr-zVNipnBVtyzRQV4Lj_qypuKu0Wr7_Zbmnbh55C3a-sxmq_nKX/n/idajmumkp9ca/b/embedding-model/o/all_MiniLM_L12_v2.onnx'
+    , directory_name => 'DATA_PUMP_DIR'
+    , file_name => 'intfloatmodelsmall.onnx'
     );
-    end;
+    END;
     /
 
     --Criação de usuário/schema para import do modelo e criação da aplicação
