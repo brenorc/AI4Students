@@ -88,7 +88,7 @@ Copie, cole e execute os comandos abaixo:
     BEGIN
         DBMS_CLOUD.CREATE_CREDENTIAL(
             credential_name => 'OBJ_STORE_CRED',
-            username => 'oracleidentitycloudservice/CAIO.OLIVEIRA@ORACLE.COM',
+            username => 'oracleidentitycloudservice/BRENO.COMIN@ORACLE.COM',
             password => 'teste'
         );
     END;
@@ -123,7 +123,7 @@ Execute conforme indicado abaixo:
 
 ### Extra: Para testar se o modelo de embedding funcionou, você pode usar a consulta abaixo:
 
-    SELECT TO_VECTOR(VECTOR_EMBEDDING(demo.doc_model USING 'Raça CAASO' as data)) AS embedding;
+    SELECT VECTOR_EMBEDDING(demo.doc_model USING 'Raça CAASO' as data) AS embedding;
 
 ## 👥 Agradecimentos
 
