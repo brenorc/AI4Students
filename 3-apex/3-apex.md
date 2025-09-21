@@ -82,7 +82,7 @@ Clique em **App Builder** e, em seguida, selecione **Import**.
 
    ![Import](images/import.png)
 
-Na página que será aberta, faça o upload do arquivo **APEX** utilizando o seguinte link: [APEX](https://objectstorage.us-chicago-1.oraclecloud.com/p/gX9oDHr2oiJOGZZkicBQzKwnlDmiz3i0iA0Pu_vY_b9f0npPbU4cpM7mRb8cXV8J/n/idi1o0a010nx/b/ai4students/o/arquivo_ragproa_apex24.2.sql).
+Na página que será aberta, faça o upload do arquivo **APEX** utilizando o seguinte link: [APEX](https://objectstorage.us-chicago-1.oraclecloud.com/n/idajmumkp9ca/b/embedding-model/o/workshop_rag_sanca_v2.sql).
 
    ![Aplicação f102](images/f102.png)
 
